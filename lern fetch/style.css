@@ -1,0 +1,37 @@
+body {
+   background-color: #C9C9C9;
+   display: flex;
+   justify-content: center;
+}
+
+.container {
+   background-color: lightblue;
+   width: 98vh;
+   height: 100%;
+   border: 5px solid#000;
+   border-radius: 15px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: start;
+   flex-direction: column;
+}
+
+.start {
+   background-color: rgb(7, 151, 170);
+   height: 70px;
+   width: 150px;
+   margin: 10px;
+   font-size: medium;
+   border-radius: 10px;
+}
+.stop {
+   background-color: rgb(238, 234, 4);
+   height: 70px;
+   width: 150px;
+   margin: 10px;
+   font-size: medium;
+   border-radius: 10px;
+}
+.hidden{
+	display:none;
+}
