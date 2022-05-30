@@ -1,0 +1,39 @@
+body {
+   background-color: #C9C9C9;
+   display: flex;
+   justify-content: start;
+}
+
+.container {
+   background-color: lightblue;
+   min-width: 300px;
+   border: 5px solid#000;
+   border-radius: 15px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: start;
+   flex-direction: column;
+}
+
+.Output {
+   background-color: rgb(7, 151, 170);
+   height: 60px;
+   width: 120px;
+   margin: 10px;
+   font-size: medium;
+   border-radius: 10px;
+}
+.Hide {
+   background-color: rgb(238, 234, 4);
+   height: 60px;
+   width: 120px;
+   margin: 10px;
+   font-size: medium;
+   border-radius: 10px;
+}
+.hidden{
+	display:none;
+}
+.usersList {
+   margin: 0 15px 0 0 ;
+}
